@@ -21,19 +21,43 @@ The circle of fifths is an illustration that has been used in music theory pedag
 
 <a href="Graphics/circleOfFifths.png"><img src="Graphics/circleOfFifths.png" width="65%"></a>
 
-But *which* notes are flat or sharp in a key? To properly use the circle of fifths to figure out a key signature, you'll need to also remember this mnemonic device, which tells you the order of flats and sharps:
+### The line of fifths
 
-**F**ather **C**harles **G**oes **D**own **A**nd **E**nds **B**attle. 
+But *which* notes are flat or sharp in a key? To properly use the circle of fifths to figure out a key signature, think of it, instead as an infinite spiral, or as a line that extends infinitely in both directions.  For practicality, write it out, like so:
 
-For sharp keys (clockwise on the circle of fifths), read the mnemonic device forward. For example, the circle of fifths tells us that there are 3 sharps in the key of A major. Which three notes are sharp? The first three notes in the mnemonic device: F(ather), C(harles), and G(oes). 
+<a href="Graphics/lineOfFifths.png"><img src="Graphics/lineOfFifths.png" width="75%"></a>
 
-For flat keys (counter-clockwise on the circle of fifths), read the mnemonic device backwards. For example, the circle of fifths tells us that the key of A-flat major has four flats. Which flats? Reading backwards: B(attle), E(nds), A(nd), D(own). 
+To determine what accidentals to use in the signature for a major key, block off seven notes, beginning with one note to the left of the desired key.  For example, C major uses the seven notes without accidentals in the middle of our line:
+
+<a href="Graphics/lineOfFifths - c major.png"><img src="Graphics/lineOfFifths - red box c major.png" width="75%"></a>
+
+Note the following properties:
+<ul>
+  <li> We have placed the major key tonic note in the second position.
+  <li> The major triads are in the 1st, 2nd, and 3rd positions.
+  <li> The minor triads are in the 3rd, 4th, and 5th positions.
+  <li> The leading tone is in the 7th position.
+</ul>
+
+These properties hold true for any block of seven consecutive notes.  We can test this by trying another key signature for a major key.  D major, for example, is readily determined by boxing seven notes, from one position left of D (G), like so:
+
+<a href="Graphics/lineOfFifths - d major.png"><img src="Graphics/lineOfFifths - red box d major.png" width="75%"></a>
+
+Notice that we have included two new accidentals, F# and C#, which are needed for the key signature of D major.  Notice also that all the properties listed above are still true (e.g., C# is in the seventh position, and is the seventh note in the scale, or, as we say,  the leading tone). 
+
+Now let's try a less common key, F# major.  The box of seven notes starts at B, like so:
+
+<img src="Graphics/lineOfFifths - f sharp major.png" width="75%">
+
+Notice that we will need six sharps in our key signature.  As an aside, notice that the leading tone in the 7th position is E#, NOT F.  The consistent set of properties among the seven notes indicates the clearest reason why F would be a "misspelled" note in F# major.  F and E# are enharmonically the same, but they are not <i>functionally</i> the same.  It is similar to misspelling words (e.g., "royal" as "roil"): they sound the same, but have different meanings.
 
 ### Minor key signatures ###
 
-Of course, minor keys can use key signatures, too. In fact, for each major key signature, there is a corresponding minor key that shares its signature. Major and minor keys that share the same key signature are called *relative* keys. For example, both C major and A minor have zero sharps or flats. A minor is considered the *relative minor* of C major; likewise, C major is considered the *relative major* of A minor. Compare the minor key circle of fifths below with the major key circle of fifths above, and you'll see the remaining relative key pairs. 
+Of course, minor keys can use key signatures, too. In fact, for each major key signature, there is a corresponding minor key that shares its signature. Major and minor keys that share the same key signature are called *relative* keys. For example, both C major and A minor have zero sharps or flats. A minor is considered the *relative minor* of C major; likewise, C major is considered the *relative major* of A minor. Using the line of fifths to determine key signatures for minor keys works in much the same way as before, except that the tonic of the minor key is in the <b>5th</b> position in the box. To find the key signature for G minor, for example, place a box around seven notes, with G in the 5th position, like so:
 
-<a href="Graphics/circleOfFifths-minor.png"><img src="Graphics/circleOfFifths-minor.png" width="65%"></a>
+<a href="Graphics/lineOfFifths - g minor.png"><img src="Graphics/lineOfFifths - g minor.png" width="75%"></a>
+
+The box of seven notes includes Bb, and Eb, which is exactly what is needed in the key signature for G minor (and its relative major, Bb).
 
 ### Writing key signatures ###
 
